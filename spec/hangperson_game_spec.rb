@@ -2,8 +2,6 @@ require 'spec_helper'
 require 'hangperson_game'
 
 describe HangpersonGame do
-  
-  
   # helper function: make several guesses
   def guess_several_letters(game, letters)
     letters.chars do |letter|

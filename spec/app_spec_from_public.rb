@@ -18,7 +18,7 @@ describe "Hangperson" do
     end
   end
 
-  describe "initialization" do
+  describe "initialization" do 
     it "should initialize session values" do
       stub_random_word('garply')
       post '/create'
@@ -82,5 +82,4 @@ describe "Hangperson" do
       last_request.url.should include('/win')
     end
   end
-
 end
