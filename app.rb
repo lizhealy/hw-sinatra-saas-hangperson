@@ -1,7 +1,6 @@
 require 'sinatra/base'
 require 'sinatra/flash'
 require './lib/hangperson_game.rb'
-
 class HangpersonApp < Sinatra::Base
 
   enable :sessions
@@ -81,5 +80,4 @@ class HangpersonApp < Sinatra::Base
     end
     erb :lose
   end
-  
 end
