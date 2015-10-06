@@ -72,8 +72,5 @@ class HangpersonGame
       end 
      end 
      return temp 
-    
-    
   end
-
 end
